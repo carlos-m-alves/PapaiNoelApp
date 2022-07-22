@@ -6,7 +6,7 @@ Papai Noel dos Correios App é um aplicativo para dispositivos móveis em que os
 
 Para rodar o sistema é necessário ter um Sistema Gerenciador de Banco de Dados (SGBD), um Ambiente de Desenvolvimento Integrado (Integrated Development Environment - IDE) com suporte à linguagem de programação Java e um emulador de celular para computador.
 
-Exemplos de programas que podem ser usados para rodar o SisMi:
+Exemplos de programas que podem ser usados para rodar:
 
 * SGBD: PgAdmin III
 * IDE: Android Studio
@@ -14,7 +14,7 @@ Exemplos de programas que podem ser usados para rodar o SisMi:
 
 -Instalação
 
-Para instalar o SisMi siga os passos a seguir:
+Para instalar o aplicativo siga os passos a seguir:
 
 a) Abra o seu SGBD - PgAdmin III.
 b) Execute o arquivo script.sql localizado na pasta Scripts SQL para criar o banco de dados.
