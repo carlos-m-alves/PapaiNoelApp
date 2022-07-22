@@ -16,12 +16,12 @@ Exemplos de programas que podem ser usados para rodar:
 
 Para instalar o aplicativo siga os passos a seguir:
 
-a) Abra o seu SGBD - PgAdmin III.
-b) Execute o arquivo script.sql localizado na pasta Scripts SQL para criar o banco de dados.
-d) Abra sua IDE.
-e) Importe o projeto.
-f) Execute o projeto.
-g) Acesse o sistema com o usuário cadastrado no script carga_inicial, o usuário administrador é admin senha: admin
+* Abra o seu SGBD - PgAdmin III.
+* Execute o arquivo script.sql localizado na pasta Scripts SQL para criar o banco de dados.
+* Abra sua IDE.
+* Importe o projeto.
+* Execute o projeto.
+* Acesse o sistema com o usuário cadastrado no script carga_inicial, o usuário administrador é admin senha: admin
 
 -Autor
 
