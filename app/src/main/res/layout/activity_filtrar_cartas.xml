@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#09f"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FiltrarCartas">
+
+    <TextView
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="#fff"
+        android:text="Filtrar por brinquedo"/>
+
+    <LinearLayout
+        android:layout_margin="20sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Brinquedo:"/>
+        <Spinner
+            android:id="@+id/spnFiltBrinquedo"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <Button
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Pesquisar"
+        android:textColor="#161616"
+        android:onClick="PesquisarCarta"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_margin="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:text="Deseja apadrinhar cartas aleatórias?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="#161616"
+        android:text="*As cartas estarão em sua lista de cartas apadrinhadas"/>
+    <LinearLayout
+        android:layout_margin="20sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Quantidade de cartas:"/>
+        <Spinner
+            android:id="@+id/spnFiltQtdCarta"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <Button
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Apadrinhar"
+        android:textColor="#161616"
+        android:onClick="ApadrinharVariasCartasPessoa"
+        android:background="#fff"/>
+</LinearLayout>

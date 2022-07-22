@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlo.posandroidprojetofinal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.FullScreen">
+        <activity android:name=".GraficoTres"></activity>
+        <activity android:name=".ListaAgencias" />
+        <activity android:name=".CadastrarCarta" />
+        <activity android:name=".InformacoesCartaApadrinhada" />
+        <activity android:name=".ListaCartasApadrinhadas" />
+        <activity android:name=".FiltrarCartas" />
+        <activity android:name=".EditarCarta" />
+        <activity android:name=".ListaCartasCadastradas" />
+        <activity android:name=".EditarEvento" />
+        <activity android:name=".ListaEventos" />
+        <activity android:name=".CriarEvento" />
+        <activity android:name=".CadastrarPadEmpresa" />
+        <activity android:name=".EscolheTipoPadrinho" />
+        <activity android:name=".Carregando" />
+        <activity android:name=".GraficoDois" />
+        <activity android:name=".ListaRelatorios" />
+        <activity android:name=".CriarEmpresa" />
+        <activity android:name=".CriarInstituicao" />
+        <activity android:name=".EditarEmpresa" />
+        <activity android:name=".EditarInstituicao" />
+        <activity android:name=".ListaInstituicao" />
+        <activity android:name=".ListaEmpresas" />
+        <activity android:name=".Funcionalidades_funcionario" />
+        <activity android:name=".GraficoUm" />
+        <activity android:name=".CadastrarPadrinho" />
+        <activity android:name=".LerCarta" />
+        <activity android:name=".ListaCartas" />
+        <activity android:name=".Funcionalidades_Usuario" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListarClientes" />
+        <activity android:name=".CriarCliente" />
+        <activity android:name=".ListarProdutos" />
+        <activity android:name=".NovoPedido" />
+        <activity android:name=".CriarProduto" />
+        <activity android:name=".EditarCliente" />
+        <activity android:name=".EditarProduto" />
+        <activity android:name=".ListarPedido" />
+        <activity android:name=".ListaItensPedidos" />
+    </application>
+
+</manifest>

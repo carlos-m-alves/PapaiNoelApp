@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditarCliente">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDITAR CLIENTE"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="8sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o cpf do cliente"
+        android:textSize="20sp"
+        android:maxLength="11"
+        android:inputType="number"
+        android:id="@+id/edtEditarCliCpf"
+        android:layout_marginTop="8sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o nome do cliente"
+        android:textSize="20sp"
+        android:id="@+id/edtEditarCliNome"
+        android:layout_marginTop="8sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o sobrenome do cliente"
+        android:textSize="20sp"
+        android:id="@+id/edtEditarCliSobreNome"
+        android:layout_marginTop="8sp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="8sp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="EditarCliente"
+            android:text="ALTERAR"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="RemoverCliente"
+            android:text="REMOVER"/>
+    </LinearLayout>
+</LinearLayout>

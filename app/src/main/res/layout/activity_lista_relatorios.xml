@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09f"
+    tools:context=".ListaRelatorios">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Relatórios"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#fff" />
+    <Button
+        android:onClick="GraficoUm"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brinquedos mais pedidos"
+        android:background="#fff"
+        android:textColor="#09f"/>
+    <Button
+        android:onClick="GraficoDois"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dados"
+        android:background="#fff"
+        android:textColor="#09f"/>
+    <Button
+        android:onClick="GraficoTres"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crianças/Instituição"
+        android:background="#fff"
+        android:textColor="#09f"/>
+</LinearLayout>

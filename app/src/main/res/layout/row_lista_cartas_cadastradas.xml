@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="35sp"
+    android:elevation="5dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafael"
+            android:textSize="30dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:id="@+id/txtListaCartasCadastradasNome"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="14 anos"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/txtListaCartasCadastradasIdade"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text=""
+                android:textSize="25sp"
+                android:textColor="#09f"
+                android:textStyle="bold"
+                android:id="@+id/txtListaCartasCadastradasEntregue"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#a9a9a9"
+        android:id="@+id/txtListaCartasCadastradasBrinquedo"/>
+</LinearLayout>

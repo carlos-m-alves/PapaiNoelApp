@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#09f"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraficoDois">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Dados"
+        android:textStyle="bold"
+        android:textSize="38sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de cartas cadastradas: "
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txtQtdCartas"
+        android:text="45"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Cartas Apadrinhadas:"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCartasApadrinhadas"
+        android:text="20/45 - (44%)"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Cartas Apadrinhadas por Empresas:"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCartasApadPorEmpresas"
+        android:text="10/45 - (22%)"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Quantidade de Eventos"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQtdEventos"
+        android:text="2"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Quantidade de Padrinhos"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQtdPadrinhos"
+        android:text="12"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Quantidade de Instituições"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQtdInstituicoes"
+        android:text="5"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+</LinearLayout>
