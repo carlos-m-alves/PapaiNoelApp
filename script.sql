@@ -18,6 +18,7 @@ drop table endereco;
 drop table bairro;
 drop table cidade;
 
+
 CREATE TABLE cidade(
  id_cidade serial primary key
  ,nome_cidade varchar(50) NOT NULL 
