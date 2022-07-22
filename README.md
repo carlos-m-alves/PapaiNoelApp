@@ -22,10 +22,3 @@ Para instalar o aplicativo siga os passos a seguir:
 * Importe o projeto.
 * Execute o projeto.
 * Acesse o sistema com o usuário cadastrado no script carga_inicial, o usuário administrador é admin senha: admin
-
--Autor
-
-CARLOS HENRIQUE MICHTAL ALVES
-
-
-
